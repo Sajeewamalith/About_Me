@@ -11,11 +11,11 @@
 
     <TextView
         android:id="@+id/name_text"
+        style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/aleks_haecky"
-        android:textAlignment="center"
-        style="@style/NameStyle" />
+        android:textAlignment="center" />
 
     <ImageView
         android:id="@+id/star_image"
@@ -24,5 +24,22 @@
         android:layout_marginTop="@dimen/_16dp"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/bio_text"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="@dimen/_16dp"
+            android:paddingEnd="@dimen/_16dp"
+            android:paddingRight="@dimen/_16dp"
+            android:text="@string/bio" />
+    </ScrollView>
 
 </LinearLayout>
