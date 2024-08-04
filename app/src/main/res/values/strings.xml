@@ -15,5 +15,6 @@
 \nYou should ask someone else about fishing, though.\n\n
     </string>
     <string name="hint">What is your nick name</string>
+    <string name="done">DONE</string>
 
 </resources>
